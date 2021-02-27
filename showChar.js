@@ -4,5 +4,5 @@ let text = 'était à Mégara, faubourg de Carthage, dans les jardins d\'Hamilca
 
 for ( i = 0; i < text.length; i++){
 
-  console.log(`le caractere: ${text[i]} a lindex ${[i]}`)
+  console.log(`le caractere: ${text[i]} a l index ${[i]}`)
 }
