@@ -16,14 +16,14 @@
 // true || false // true
 // true || true // true
 
-let a = true
-let b = true
+let a = true                                //declare la variable 
+let b = true                                //declare la variable 
 
 
-console.log(!a && b)
+console.log(!a && b)                       // contraire de a est false ET b est true  = false
 
 
 let c = true
 let d = true
 
-console.log((!c || !d) && (c || d))
+console.log((!c || !d) && (c || d))        // contraire de c false ou idem d false ET c true ou d true = false

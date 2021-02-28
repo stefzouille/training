@@ -13,7 +13,7 @@
 
 
 
-console.log(0x123.toString()) 
+console.log(0x123.toString())                              //toString () base en decimal par defaut
 console.log(0123.toString()) 
 console.log(0b10011001.toString()) 
 console.log(0xdeadbeef.toString()) 

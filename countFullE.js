@@ -22,9 +22,9 @@ Les soupirs de la sainte et les cris de la fée.".toLocaleUpperCase()
 
 let counte = 0
 
-for ( i = 0; i < text.length; ++i) {
+for ( i = 0; i < text.length; ++i) {                           // variable counte a 0 et i est tester a la longeur du texte
   if (text[i] === 'E') {
-    counte++
+    counte++                                                   //si dans le texxte === E incremante counte de + 1
   }
 }
 

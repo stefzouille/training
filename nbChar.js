@@ -19,6 +19,6 @@ Modulant tour à tour sur la lyre d'Orphée\n\
 Les soupirs de la sainte et les cris de la fée."
 
 
-console.log(`La longueur de text est: ${text.length}`)
+console.log(`La longueur de text est: ${text.length}`)             // .length = a longeur du text
 
 
