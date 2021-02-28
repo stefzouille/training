@@ -17,15 +17,15 @@ J'ai rêvé dans la grotte où nage la sirène...\n\
 \n\
 Et j'ai deux fois vainqueur traversé l'Achéron ;\n\
 Modulant tour à tour sur la lyre d'Orphée\n\
-Les soupirs de la sainte et les cris de la fée."
+Les soupirs de la sainte et les cris de la fée.".toLocaleUpperCase()
 
-text = text.toLocaleUpperCase()
+
 let counte = 0
 
 for ( i = 0; i < text.length; ++i) {
-  if (text[i] === 'e') {
+  if (text[i] === 'E') {
     counte++
   }
 }
 
-console.log(`le nombre de e est de : ${counte}`)  // a finir relir pour bug 
+console.log(`le nombre de e est de : ${counte}`)  
