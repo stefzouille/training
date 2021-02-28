@@ -18,11 +18,11 @@ Et j'ai deux fois vainqueur traversé l'Achéron ;\n\
 Modulant tour à tour sur la lyre d'Orphée\n\
 Les soupirs de la sainte et les cris de la fée."
 
-let counte = 0
+let counte = 0                                                          //assigne 0 a la variable counte
 
-for ( i = 0; i < text.length; i++) {
-  if (text[i] === 'e') {
-    counte++
+for ( i = 0; i < text.length; i++) {                                    //variable i a 0 et plus petit que la longueur du texte
+  if (text[i] === 'e') {                                                // si l index du texte === e
+    counte++                                                            // incremante counte de + 1
   }
 }
 
