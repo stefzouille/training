@@ -22,15 +22,15 @@ Les soupirs de la sainte et les cris de la fée.".toLocaleUpperCase()
 
 let nbA = 0
 let nbE = 0
-let nbI = 0
+let nbI = 0                                                      //definir un variable en base 0
 let nbO = 0
 let nbU = 0
 let nbY = 0
 
-for ( let i = 0; i < text.length; i++) 
-  if (text[i] === 'A'){
-  ++nbA
-} else if (text[i] === 'E') {
+for ( let i = 0; i < text.length; i++)                          // definir  lindex i a 0 et compter a la taille du texte
+  if (text[i] === 'A'){                                         // si dans l index du text === a A
+  ++nbA                                                         //on incremante de +1
+} else if (text[i] === 'E') {                                
   ++nbE
 } else if (text[i] === 'I') {
   ++nbI
@@ -45,9 +45,9 @@ for ( let i = 0; i < text.length; i++)
 
 
 
-console.log(`il y a ${nbA}`)
-console.log(`il y a ${nbE}`)
-console.log(`il y a ${nbI}`)
-console.log(`il y a ${nbO}`)
-console.log(`il y a ${nbU}`)
-console.log(`il y a ${nbY}`)
+console.log(`il y a ${nbA} A dans ce texte.`)                   //affiche la lettre a une fois compté et incremanté
+console.log(`il y a ${nbE} E dans ce texte.`)
+console.log(`il y a ${nbI} I dans ce texte.`)
+console.log(`il y a ${nbO} O dans ce texte.`)
+console.log(`il y a ${nbU} U dans ce texte.`)
+console.log(`il y a  ${nbY} Y dans ce texte.`)
