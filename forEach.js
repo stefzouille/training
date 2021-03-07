@@ -45,10 +45,35 @@
 // nb = [6, 8, 74, 51, 21, 23, 1]
 // nb.forEach(elem => console.log(elem))
 
-const forEach = (tab, fct) => {
-  for(const elem of tab) {
+// const forEach = (tab, fct) => {
+//   for(const elem of tab) {
+//     fct(elem)
+//   }
+// }
+
+// const forEach = (tab, fct) => {
+//   for (const elem of tab) {
+//     fct(elem)
+//   }
+// }
+
+// const foreach = (tab, fct) => {
+//   for ( const elem of tab) {
+//     fct(elem)
+//   }
+// }
+// const forEach = (tab, fct) => {
+//   for (const elem of tab) {
+//     fct(elem)
+//   }
+// }
+
+const forEach = (tan, fct) => {
+  for (const elem of tab) {
     fct(elem)
+    
   }
 }
+
 nb = [5, 6, 78, 54, 564, 64, 64, 64]
 nb.forEach(elem => console.log(elem))
