@@ -12,8 +12,17 @@
 //   return nb % 2 !== 0
 // }
 
-const isOdd = (nb) => {
-  return nb % 2 !== 0 ? true : false
-}
+// const isOdd = (nb) => {
+//   return nb % 2 !== 0 ? true : false
+// }
+// const isEven = (nb) => {
+//   return isOdd(nb) !== 0
+// }
 
-console.log(isOdd(32))
+const isOdd = (nb) => {
+  return nb % 2 !== 0
+}
+const isEven = (nb) => {
+  return isOdd(nb) !== 0
+}
+console.log(isEven(32))
