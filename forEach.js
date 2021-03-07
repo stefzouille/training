@@ -39,7 +39,7 @@
 
 // const forEach = (tab, fct) => {
 //   for(const elem of tab) {
-//     fct(elem)
+//      fct(elem)
 //   }
 // }
 // nb = [6, 8, 74, 51, 21, 23, 1]

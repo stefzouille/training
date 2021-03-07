@@ -87,18 +87,121 @@
 // console.log(filter(isFilter, numbers))
 
 
+// const isFilter = (nb) => {
+//   return nb % 2 === 0
+// }
+// const filter = (fct, tab) => {
+//   const array = []
+//     for (const elem of tab) {
+//       if (fct(elem)) {
+//         array.push(elem)
+//       }
+//     }
+//     return array
+// }
+// const isFilter = (nb) => {
+//   return nb % 2 === 0
+// }
+// const filter = (fct, tab) => {
+//   const aray = []
+//   for (const elem of tab) {
+//     if (fct(elem)) {
+//       aray.push(elem)
+//     }
+//   }
+//   return aray
+// }
+
+// const isFilter = (nb) => {
+//   return nb % 2 === 0
+// }
+// const filter = (fct, tab) => {
+//   const array = []
+//   for (const elem of tab) {
+//     if (fct(elem)) {
+//       array.push(elem)
+//     }
+//   }
+//   return array
+// }
+// const isFilter = (nb) => {
+//   return nb % 2 === 0
+// }
+// const filter = (fct, tab) => {
+//   aray = []
+//   for (const elem of tab) { 
+//     if (fct(elem)) {
+//       aray.push(elem)
+//     }
+//   }
+//   return aray
+// }
+
+// const isFilter = (nb) => {
+//   return nb % 2 === 0
+// }
+// const filter = (fct, tab) => {
+//   ar = []
+//   for (const elem of tab) {
+//     if (fct(elem)) {
+//     ar.push(elem)
+//     }
+//   }
+//   return ar
+// }
+
+// const isFilter = (nb) => {
+//   return nb % 2 === 0
+// }
+// const filter = (fct, tab) => {
+//   array = []
+//   for (const elem of tab) {
+//     if (fct(elem)) {
+//       array.push(elem)
+//     }
+//   }
+//   return array
+// }
+
+// const isFilter = (nb) => {
+//   return nb % 2 === 0
+// }
+// const filter= (fct,tb) => {
+//   ara = []
+//   for (const elem of tb) {
+//     if (fct(elem)) {
+//       ara.push(elem)
+//     }
+//   }
+//   return ara
+// }
+
+// const isFilter = (nb) => {
+//   return nb % 2 === 0
+// }
+// const filter = (fct,tb) => {
+//   array = []
+//   for (const elem of tb) {
+//     if (fct(elem)) {
+//       array.push(elem)
+//     }
+//   }
+//   return array
+// }
+
 const isFilter = (nb) => {
   return nb % 2 === 0
 }
-const filter = (fct, tab) => {
-  const array = []
-    for (const elem of tab) {
-      if (fct(elem)) {
-        array.push(elem)
-      }
+const filter = (fct, Array) => {
+  tab = []
+  for (const elem of Array) {
+    if (fct(elem)) {
+      tab.push(elem)
     }
-    return array
+  }
+  return tab
 }
 numbers = [2, 5, 8, 2,8, 9, 65, 7, 45, 12, 15, 4 ]
 
 console.log(filter(isFilter, numbers))
+
